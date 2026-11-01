@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+# never commit patient data or model checkpoints
+data/
+*.ckpt
+*.pt
+*.pth
+*.db

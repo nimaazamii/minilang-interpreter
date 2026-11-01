@@ -1,0 +1,8 @@
+== collatz.ml  (955304 interpreter steps, 3.62 s)
+longest chain below 3000 starts at 2919 with 216 steps
+== gcd_strings.ml  (23 interpreter steps, 0.00 s)
+gcd(1071, 462) = 21
+Hello, MiniLang has 15 characters
+2.5 2 2 -4 5.0
+== primes.ml  (23188 interpreter steps, 0.10 s)
+primes below 1000: 168

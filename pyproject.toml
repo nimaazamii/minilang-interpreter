@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "minilang-interpreter"
+version = "0.1.0"
+description = "A small programming language: lexer, recursive-descent parser, AST, semantic analysis with static type checks, and a tree-walking interpreter."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Nima Azami" }]
+dependencies = []
+keywords = ["compiler", "interpreter", "parser", "programming-language"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
